@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(5, 5, 29);
+  margin: 0;
+  font-family: sans-serif; 
+  color: white;
+}
+* {
+  border: 0;
+  box-sizing: border-box; 
+}
+/*=============botão================*/
+.p-5 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 0, 225);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(255, 0, 8);
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+.p-5 a:hover {
+    background-color: rgb(255, 0, 225);
+    color: #0a0a48;
+}
+/*============container-fixo=============*/
+.p-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.p-2{
+    position: relative;
+    right:20px;
+}
+.p-3, .p-4{
+    color: red;
+    text-shadow: 0 0 15px rgb(255, 0, 30);
+}
+ /*=======containes==========*/
+.d-1,.d-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+}
+/*---------------------------------------*/
+.tema-projeto, .desenvolvedor-contexto {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tema-projeto h2, .desenvolvedor-contexto h2 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+
+.desenvolvedor-contexto blockquote {
+    font-style: italic;
+    border-left: 3px solid #ccc; /* Ou a cor de destaque do seu tema */
+    padding-left: 15px;
+    margin-top: 20px;
+    text-align: left;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
