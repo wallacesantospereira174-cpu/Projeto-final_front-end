@@ -1,0 +1,356 @@
+/*=============botão================*/
+header{
+    background-color: #0d0c12;
+}
+.p-5 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 0, 225);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(255, 0, 8);
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    left: 30px;
+}
+.p-5 a:hover {
+    background-color: rgb(255, 0, 225);
+    color: #0a0a48;
+}
+/*============container-fixo=============*/
+.p-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.p-2{
+    position: relative;
+    right:20px;
+}
+.p-3, .p-4{
+    color: red;
+    text-shadow: 0 0 15px rgb(255, 0, 30);
+}
+
+/* 1. TRAVA DE SEGURANÇA GERAL CONTRA VAZAMENTOS */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden; 
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset e Background Base */
+.p1 {
+    background-color: #0d0c12;
+;
+    background-size: 20px 20px;
+    color: #ffffff;
+    font-family: 'Courier Prime', monospace;
+    padding: 40px 15px; 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    width: 100%;
+}
+
+
+.p2 {
+    width: 100%;
+    max-width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.p3 {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+}
+
+.p4 {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin: 0 0 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap; 
+    row-gap: 8px;   
+    color: #ff2a74;
+    width: 100%;
+}
+
+.p5 {
+    font-weight: bold;
+    margin-right: 8px;
+    border-left: 4px solid #ff2a74;
+    padding-left: 8px;
+}
+
+.p6 {
+    color: #ff2a74;
+    margin-left: 5px;
+}
+
+.p7 {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+.p8 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    width: 1px;
+    height: 1px;
+}
+
+.p9 {
+    background-color: #12111a;
+    border: 1px solid #1f1d29;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.p10 {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #4a475a;
+    margin-right: 15px;
+    display: inline-block;
+    flex-shrink: 0; 
+}
+
+
+.p11 {
+    color: #4a475a;
+    margin-right: 40px;
+    letter-spacing: 3px;
+    flex-shrink: 0;
+}
+
+.p12 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #8e8b9e;
+}
+
+.p13 {
+    position: absolute;
+    right: 15px;
+    width: 6px;
+    height: 6px;
+    background-color: #00f0ff;
+    box-shadow: 0 0 8px #00f0ff;
+    display: none; 
+}
+
+.p8:checked + .p9 {
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.3);
+}
+
+.p8:checked + .p9 .p10 {
+    border-color: #00f0ff;
+    background-color: #00f0ff;
+    box-shadow: inset 0 0 0 3px #12111a;
+}
+
+.p8:checked + .p9 .p11,
+.p8:checked + .p9 .p12 {
+    color: #00f0ff;
+}
+
+.p8:checked + .p9 .p13 {
+    display: block;
+}
+
+.p14 { color: #00f0ff; }
+.p15 { border-left-color: #00f0ff; }
+
+/*=======================Grid=========================*/
+.p16 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    width: 100%;
+}
+
+.p17 {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    width: 100%;
+}
+
+
+.p18 { 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    opacity: 0; 
+    width: 1px;
+    height: 1px;
+}
+
+.p19 {
+    background-color: #12111a;
+    border: 1px solid #1f1d29;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    gap: 15px;
+    transition: all 0.2s ease;
+    width: 100%;
+}
+
+.p20 {
+    font-size: 20px;
+    color: #4a475a;
+}
+
+.p21 {
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #4a475a;
+}
+
+
+.p22 {
+    width: 6px;
+    height: 6px;
+    background-color: #252330;
+}
+
+.p18:checked + .p19 {
+    border: 2px solid #00f0ff;
+    box-shadow: 0 0 15px rgba(0, 240, 255, 0.2);
+}
+
+.p18:checked + .p19 .p20, 
+.p18:checked + .p19 .p21 {
+    color: #00f0ff;
+}
+
+.p18:checked + .p19 .p22 {
+    background-color: #00f0ff;
+    box-shadow: 0 0 8px #00f0ff;
+}
+
+
+.p23 { color: #b452ff; }
+.p24 { border-left-color: #b452ff; }
+
+.p25 {
+    background-color: #12111a;
+    border: 1px solid #3d1b5a;
+    padding: 18px;
+    color: #8e8b9e;
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px;
+    outline: none;
+    width: 100%;
+}
+
+
+.p26 { color: #00ff85; }
+.p27 { border-left-color: #00ff85; }
+
+.p28 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.p29 {
+    background-color: #12111a;
+    border: 1px solid #005f32;
+    padding: 18px;
+    color: #8e8b9e;
+    font-family: 'Courier Prime', monospace;
+    font-size: 14px;
+    outline: none;
+    height: 150px;
+    resize: none;
+    width: 100%;
+}
+
+.p29:focus {
+    border-color: #00ff85;
+}
+
+.p30 {
+    font-size: 11px;
+    color: #3d3b4a;
+    align-self: flex-end;
+    margin-top: 8px;
+}
+.p31 {
+    background-color: transparent;
+    border: 2px solid #ff2a74;
+    color: #ff2a74;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    padding: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.2s ease;
+    box-shadow: 0 0 10px rgba(255, 42, 116, 0.1);
+    width: 100%;
+}
+
+.p31:hover {
+    background-color: #ff2a74;
+    color: #0d0c12;
+    box-shadow: 0 0 20px rgba(255, 42, 116, 0.4);
+}
+
+.p32 {
+    font-size: 12px;
+    margin-right: 5px;
+}
+@media (max-width: 580px) {
+    .p16 {
+        grid-template-columns: 1fr;
+    }
+    .p11 {
+        margin-right: 15px; 
+    }
+    .p9 {
+        padding: 15px 10px; 
+        font-size: 13px;
+    }
+}
+footer {
+    text-align: center;
+    
+}
+.s-1{
+color: #343336;
+}

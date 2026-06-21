@@ -184,3 +184,35 @@ footer{
 .s-1{
     color: dimgray;
 }
+.botao-opiniao {
+    text-decoration: none; 
+    display: inline-block; 
+    width: 100%;
+    max-width: 300px; 
+    margin: 20px auto;
+}
+
+.botao-opiniao div {
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 225);
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px rgba(255, 0, 225, 0.3);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.botao-opiniao:hover div {
+    background-color: rgb(255, 0, 225);
+    color: #0d0c12;
+    box-shadow: 0 0 25px rgb(255, 0, 225);
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
