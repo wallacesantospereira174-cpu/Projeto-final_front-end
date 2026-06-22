@@ -1,0 +1,240 @@
+body {
+  background-color: rgb(5, 5, 29);
+  margin: 0;
+  font-family: sans-serif; 
+  color: white;
+}
+* {
+  border: 0;
+  box-sizing: border-box; 
+}
+/*=============botão================*/
+.p-10 a{
+   display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 0, 225);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(255, 0, 8);
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 0;
+    left: 0; 
+}
+.p-10 a:hover {
+    background-color: rgb(255, 0, 225);
+    color: #0a0a48;
+}
+
+.p-5 a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 2px solid rgb(255, 0, 225);
+    background-color: transparent;
+    padding: 5px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgb(255, 0, 8);
+    font-weight: bold;
+    transition: 0.3s;
+    width: 100px;
+    height: 30px;
+    position: relative;
+    top: 45px;
+    left:px;
+}
+.p-5 a:hover {
+    background-color: rgb(255, 0, 225);
+    color: #0a0a48;
+}
+/*============container-fixo=============*/
+.p-1{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+.p-2{
+    position: relative;
+    right:20px;
+}
+.p-3, .p-4{
+    color: red;
+    text-shadow: 0 0 15px rgb(255, 0, 30);
+}
+ /*=======containes==========*/
+.d-1,.d-2{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    margin: 20px;
+}
+
+.A-1,.A-2,.A-3,.A-4,.A-5,.A-6,.A-7,.A-8,.A-9{
+    width: 300PX; 
+    height: 300PX;
+    background-color: rgb(12, 4, 50);
+    padding: 5px;
+    border-radius: 10px;
+}
+.A-1:hover{ 
+      transform: translateY(-2px);
+
+}
+.A-1{
+    border-radius: 10PX;
+    border: 4px solid rgb(255, 0, 93) ;
+    box-shadow: 0 0 15px rgb(255, 0, 30);
+}
+.A-2{
+    border-radius: 10PX;
+    border: 4px solid rgb(0, 179, 255) ;
+    box-shadow: 0 0 15px rgb(0, 247, 255);
+}
+.A-2:hover{
+    transform: translateY(-2px);
+}
+.A-3{
+    border-radius: 10PX;
+    border: 4px solid rgb(221, 0, 255) ;
+    box-shadow: 0 0 15px rgb(204, 0, 255);
+}
+.A-3:hover{
+    transform: translateY(-2px);
+}
+.A-4{
+    border-radius: 10PX;
+    border: 4px solid rgb(255, 251, 0) ;
+    box-shadow: 0 0 15px rgb(255, 255, 0);
+}
+.A-4:hover{
+    transform: translateY(-2px);
+}
+.A-5{
+    border-radius: 10PX;
+    border: 4px solid rgb(21, 255, 0) ;
+    box-shadow: 0 0 15px rgb(60, 255, 0);
+}
+.A-5:hover{
+    transform: translateY(-2px);
+}
+.A-6{
+    border-radius: 10PX;
+    border: 4px solid rgb(195, 98, 0) ;
+    box-shadow: 0 0 15px rgb(195, 98, 0);
+}
+.A-6:hover{
+    transform: translateY(-2px);
+}
+.A-7{
+    border: 4px solid blueviolet;
+    box-shadow: 0 0 15px rgb(130, 0, 195);
+    margin: 5px;
+    padding: 5px;
+}
+.A-7:hover{
+    transform: translateY(-2px);
+}
+.A-8{
+    border: 4px solid rgb(226, 43, 80);
+    box-shadow: 0 0 15px rgb(195, 0, 20);
+    margin: 5px;
+    padding: 5px;
+}
+.A-8:hover{
+    transform: translateY(-2px);
+}
+.A-9{
+    border: 4px solid rgb(43, 220, 226);
+    box-shadow: 0 0 15px #05d1ff;
+    margin: 5px;
+    padding: 5px;
+}
+.A-9:hover{
+    transform: translateY(-2px);
+}
+
+/*=============================*/
+.p-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  padding: 10px 20px;
+}
+/*===========botao===========*/
+.p-5 a {
+  display: inline-block;
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgb(255, 0, 225);
+  background-color: transparent;
+  padding: 5px 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgb(255, 0, 8);
+  font-weight: bold;
+  transition: 0.3s;
+  width: 100px;
+  height: 35px;
+  line-height: 22px; 
+}
+.p-5{
+  position: relative;
+  bottom: 45px;
+}
+/*=======================*/
+header{
+    width: 100%;
+
+}
+/*======================*/
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+.f-1{
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+footer{
+    text-align: center;
+}
+.s-1{
+    color: dimgray;
+}
+.botao-opiniao {
+    text-decoration: none; 
+    display: inline-block; 
+    width: 100%;
+    max-width: 300px; 
+    margin: 20px auto;
+}
+
+.botao-opiniao div {
+    background-color: transparent;
+    border: 2px solid rgb(255, 0, 225);
+    color: white;
+    padding: 12px 20px;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 15px rgba(255, 0, 225, 0.3);
+    transition: all 0.3s ease;
+    border-radius: 4px;
+}
+
+.botao-opiniao:hover div {
+    background-color: rgb(255, 0, 225);
+    color: #0d0c12;
+    box-shadow: 0 0 25px rgb(255, 0, 225);
+    cursor: pointer;
+}
+.flex{
+    display: flex;
+    justify-content: center;
+}
